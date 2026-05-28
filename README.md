@@ -1,20 +1,13 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+#AcademiaForge
 
-# Run and deploy your AI Studio app
+A comprehensive study companion app that helps students track habits and optimize learning sessions. It goes beyond basic time tracking by integrating Google's Gemini AI to analyze study patterns and deliver personalized strategic recommendations for better focus and retention.
 
-This contains everything you need to run your app locally.
+Key Features:
+✅ Smart Dashboard: Visual analytics of study hours and mood patterns.
+✅ AI Copilot: Personalized predictions and confidence scores for upcoming sessions.
+✅ Pomodoro Timer: Integrated focus timer with custom durations.
+✅ Habit Researcher: Deep dive into productivity trends.
+Tech Stack: React & TypeScript, Vite, Tailwind CSS, Google Gemini API. Deployed on Vercel.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LmYow4AtjWhTc3DKjrChKUvTRASUB20m
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Privacy-First with Optional Persistence: Core data stores locally in your browser (localStorage)—no cloud sync or cross-device access by default. Optional login adds session continuity on the same device via secure token storage, without requiring accounts for instant use.
+​
